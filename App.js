@@ -1,10 +1,7 @@
 import * as React from 'react';
-import { Text, StyleSheet } from 'react-native';
+import { Text } from 'react-native';
 import { Router, Scene } from 'react-native-router-flux';
-//import { NavigationContainer } from '@react-navigation/native';
-//import { createMaterialBottomTabNavigator } from '@react-navigation/material-bottom-tabs';
-//import { MaterialCommunityIcons } from '@expo/vector-icons';
-//import Icon from 'react-native-vector-icons/FontAwesome';
+
 
 import PageOne from './PageOne';
 import PageTwo from './PageTwo';
