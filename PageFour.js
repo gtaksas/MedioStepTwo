@@ -2,7 +2,6 @@
 import { StyleSheet, Text, View, FlatList, Dimensions, TouchableOpacity } from 'react-native';
 
 var width = Dimensions.get('window').width;
-//var height = Dimensions.get('window').height;
 
 
 export default class PageFour extends Component {
@@ -21,10 +20,7 @@ export default class PageFour extends Component {
 
     renderItem = ({ item }) => {
         return (
-            <TouchableOpacity
-                mid={item.megyeid}
-                onPressItem={this.handlePress}
-            >
+            <TouchableOpacity>
                 <View>
                     <Text
                         style={[
